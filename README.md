@@ -19,10 +19,14 @@ Link and Resources
 
 
 * How did this go, overall?
-It is so exaiting and Iam so happy to learn how make web pages.
+It is so exaiting and Iam so happy to learn how make web pages, It is need more focus and effort but it is so interesting
 
 * What observations or questions do you have about what you’ve learned so far?
 It is easy to learn ,and i should make anotes to more understand .
 
 * How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
-It was took litle time,some hours. 
+It was took litle time,7 hours. 
+
+
+
+

@@ -4,9 +4,7 @@ h1{
     color: rgb(252, 158, 177);
     background-color:crimson;
     height: 100px;
-    line-height: 100px;
-    display: block;
-    font-weight: lighter;
+    line-height: 500%;
     
     
 }
@@ -24,11 +22,47 @@ li{
 p{
     background-color: lightsalmon;
     color: maroon;
-    
-    padding: 55px;
+    line-height: 70%;
+    padding: 15px;
     margin: 15px;
 }
 footer{
-    background-color: crimson;
-    color: darksalmon;
+    color: rgb(173, 10, 10);
+    line-height: 1;
+    margin-top: 2500px;
+}
+
+
+
+nav ol.a {
+    color: darkblue;
+    width: 155px;
+    height: 155px;
+    padding: 122px;
+    margin-left: 520px;
+    list-style-type:upper-alpha;
+    display: block;
+    text-align: center;
+    line-height: 1;
+}
+
+
+nav ol li{
+
+background-color:mediumturquoise ;
+color: navy;
+padding: 100px;
+margin: 15px;
+line-height: 1;
+width: 255px;
+text-align: center;
+
+}
+h2{
+    color: mediumblue;
+    background-color: mediumturquoise;
+    line-height: 80%;
+    height: 80%;
+    text-align: center;
+    padding: 22px;
 }

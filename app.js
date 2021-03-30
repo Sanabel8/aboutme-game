@@ -75,3 +75,161 @@ if (travel==='yes'|| travel==='y'){
 
 
 alert('thank you '+userName);
+
+
+
+
+   
+
+
+
+alert('Hello ' + userName + ' welcome in my web page ' + '\nI will game with you some guessing.');
+let score=0;
+
+
+for (i = 0; i < 5; i++) {
+
+    let number = prompt("guess a number between 1-10");
+    if (number < 8) {
+        console.log(number);
+        alert("it is too low " + "'\n guess again");
+    } else if (number > 8) {
+        console.log(number);
+        alert("it is too high " + "'\n guess again");
+    } else if (i = 8){
+        console.log(number);
+        score++;
+    alert("good jop " + userName + " the correct answer is 8 "+"your score is "+score);
+    break;
+}
+}
+alert('the corect answer is 8 ');
+
+
+
+
+for (i = 0; i < 5; i++) {
+
+    let color = prompt("guess a color between red/green/pink/blue");
+    if (color =="pink") {
+        console.log(color);
+        alert("it is not true " + "'\n guess again");
+    } else if (color =="red") {
+        console.log(color);
+        alert("it is not true " + "'\n guess again");
+    } else if (color=="blue"){
+        console.log(color);
+        score++;
+        alert("good jop " + userName + " the correct answer is blue"+" your score is " +score);
+        break;
+    }else if(color=="green"){
+        console.log(color);
+        alert("it is not true " + "\n guess again");
+
+}else{
+    alert("plz choose red or green or pink or blue");
+}
+}
+
+alert("the corect answer is blue"+" your score is " + score);
+
+
+
+for (i = 0; i < 5; i++) {
+
+    let travel= prompt("guess How many times I traveled?");
+    if (travel < 3) {
+        console.log(travel);
+        alert("it is too low " + "\n guess again");
+    } else if (travel > 3) {
+        console.log(travel);
+        alert("it is too high " + "\n guess again");
+    } else if (i = 3){
+        console.log(travel);
+        score++;
+        alert("good jop " + userName + " the correct answer is 3 "+"you score is "+score);
+        break;
+}
+}
+alert("the corect answer is 3" + "your score is "+ score);
+
+
+
+for (i = 0; i < 5; i++) {
+
+    let novels= prompt("guess a number of novels I read");
+    if (novels < 20) {
+        console.log(novels);
+        alert("it is too low " + "'\n guess again");
+    } else if (novels > 20) {
+        console.log(novels);
+        alert("it is too high " + "'\n guess again");
+    } else if (i = 20){
+        console.log(novels);
+        score++;
+        alert("good jop " + userName + " the correct answer is 20 "+"your score is "+ score);
+        break;
+}
+}
+alert("the corect answer is 20 " + "your score is "+score);
+
+
+
+for (i = 0; i < 5; i++) {
+
+    let age = prompt("guess my age");
+    if (age < 23) {
+        console.log(age);
+        alert("it is too low " + "\n guess again");
+    } else if (age >23) {
+        console.log(age);
+        alert("it is too high " + "\n guess again");
+    } else if (age = 23){
+        console.log(age);
+        score++
+       alert("good jop " + userName + " the correct answer is 23");
+       break;
+}
+}
+alert("the corect answer is 23 "+ "your score is " + score);
+
+for (i = 0; i < 5; i++) {
+
+    let brother = prompt("guess how many brothers for me");
+    if (brother < 3) {
+        console.log(brother);
+        alert("it is too low " + "\n guess again");
+    } else if (brother > 3) {
+        console.log(brother);
+        alert("it is too high " + "\n guess again");
+    } else if (i =3){
+        console.log(brother);
+        score++;
+    alert("good job " + userName + " the correct answer is 8 "+"your score is "+ score);
+    break;
+}
+}
+alert("the correct answer is 3 "+ "your score is " + score);
+
+
+let flowers =["orchidRose ", " lilyRose"," pinkRose" ," " , "irisRose"," jasmineRose"];
+
+for (let i = 0; i < flowers.length; i++){
+    let guessflowers= prompt("guess what type of flowers I love ");
+    if (guessflowers === flowers[i]){
+        console.log(guessflowers.toLowerCase());
+        alert("good job " + userName+"\n your score "+ score);
+        score++;
+        break;
+    } else {
+        console.log(guessflowers.toLowerCase());
+        alert("it is not correct answer " + "\n guess again");
+        
+    } 
+
+}
+alert("I LOVE "+ flowers[1] + flowers[4] +flowers[5]);
+alert("thank you " +userName+ "your score is "+score);
+
+
+

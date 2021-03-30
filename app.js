@@ -14,7 +14,7 @@ if (iceCream==='yes'|| iceCream==='y'){
     console.log(iceCream);
     alert(userName+ " , sorry wrong answer I love ice-cream.");
 }else{
-    alert('plz answer the qustion by yas or no')
+    alert('plz answer the qustion by yas/y or no/n')
 }
 
 
@@ -28,7 +28,7 @@ if (instegram==='yes'|| instegram==='y'){
    // console.log(instegram);
     alert(userName+ ' , sorry your answer is wrong I love instegram');
 }else{
-    alert('plz answer the qustion by yas or no')
+    alert('plz answer the qustion by yas/y or no/n')
 }
 
 
@@ -42,7 +42,7 @@ if (summer==='yes'|| summer==='y'){
  //   console.log(summer);
     alert(userName+ " ,yes your answer is correct I don't love summer.");
 }else{
-    alert('plz answer the qustion by yas or no')
+    alert('plz answer the qustion by yas/y or no/n')
 }
 
 
@@ -56,7 +56,7 @@ if (sea==='yes'|| iceCream==='y'){
    // console.log(sea);
     alert(userName+ " ,yes your answer is correct I don't love sea.");
 }else{
-    alert('plz answer the qustion by yas or no')
+    alert('plz answer the qustion by yas/y or no/n')
 }
 
 
@@ -69,7 +69,7 @@ if (travel==='yes'|| travel==='y'){
    // console.log(iceCream);
     alert(userName+ " , sorry your answer is wrong I  love travel.");
 }else{
-    alert('plz answer the qustion by yas or no')
+    alert('plz answer the qustion by yas/y or no/n')
 }
 
 

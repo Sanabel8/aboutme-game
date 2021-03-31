@@ -150,25 +150,28 @@ questionTwo();
 
 
 // question three
-for (let i = 0; i < 4; i++) {
+function questionThree(){
+    for (let i = 0; i < 4; i++) {
 
-    let travel = prompt("guess How many times I traveled?");
-    travel = parseInt(travel);
-
-    if (travel < 3) {
-        console.log(travel);
-        alert("it is too low " + "\n guess again");
-    } else if (travel > 3) {
-        console.log(travel);
-        alert("it is too high " + "\n guess again");
-    } else if (i = 3) {
-        console.log(travel);
-        score++;
-        alert("good jop " + userName + " the correct answer is 3 " + "you score is " + score);
-        break;
+        let travel = prompt("guess How many times I traveled?");
+        travel = parseInt(travel);
+    
+        if (travel < 3) {
+            console.log(travel);
+            alert("it is too low " + "\n guess again");
+        } else if (travel > 3) {
+            console.log(travel);
+            alert("it is too high " + "\n guess again");
+        } else if (i = 3) {
+            console.log(travel);
+            score++;
+            alert("good jop " + userName + " the correct answer is 3 " + "you score is " + score);
+            break;
+        }
     }
+    alert("the corect answer is 3" + "your score is " + score);
 }
-alert("the corect answer is 3" + "your score is " + score);
+questionThree();
 
 
 

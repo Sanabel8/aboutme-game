@@ -227,24 +227,28 @@ questionFive();
 
 
 // question six
-for (let i = 0; i < 4; i++) {
+function questionSix(){
+    for (let i = 0; i < 4; i++) {
 
-    let brother = prompt("guess how many brothers for me");
-    brother = parseInt(brother);
-    if (brother < 3) {
-        console.log(brother);
-        alert("it is too low " + "\n guess again");
-    } else if (brother > 3) {
-        console.log(brother);
-        alert("it is too high " + "\n guess again");
-    } else if (i = 3) {
-        console.log(brother);
-        score++;
-        alert("good job " + userName + " the correct answer is 8 " + "your score is " + score);
-        break;
+        let brother = prompt("guess how many brothers for me");
+        brother = parseInt(brother);
+        if (brother < 3) {
+            console.log(brother);
+            alert("it is too low " + "\n guess again");
+        } else if (brother > 3) {
+            console.log(brother);
+            alert("it is too high " + "\n guess again");
+        } else if (i = 3) {
+            console.log(brother);
+            score++;
+            alert("good job " + userName + " the correct answer is 8 " + "your score is " + score);
+            break;
+        }
     }
+    alert("the correct answer is 3 " + "your score is " + score);
 }
-alert("the correct answer is 3 " + "your score is " + score);
+questionSix();
+
 
 
 /*

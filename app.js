@@ -87,9 +87,11 @@ alert('Hello ' + userName + ' welcome in my web page ' + '\nI will game with you
 let score=0;
 
 
-for (i = 0; i < 5; i++) {
+for (i = 0; i < 4; i++) {
 
     let number = prompt("guess a number between 1-10");
+    let number = parseInt(number);
+
     if (number < 8) {
         console.log(number);
         alert("it is too low " + "'\n guess again");
@@ -108,9 +110,11 @@ alert('the corect answer is 8 ');
 
 
 
-for (i = 0; i < 5; i++) {
+for (i = 0; i < 4; i++) {
 
     let color = prompt("guess a color between red/green/pink/blue");
+    let color = parseInt(color);
+
     if (color =="pink") {
         console.log(color);
         alert("it is not true " + "'\n guess again");
@@ -135,9 +139,11 @@ alert("the corect answer is blue"+" your score is " + score);
 
 
 
-for (i = 0; i < 5; i++) {
+for (i = 0; i < 4; i++) {
 
     let travel= prompt("guess How many times I traveled?");
+    let travel = parseInt(travel);
+
     if (travel < 3) {
         console.log(travel);
         alert("it is too low " + "\n guess again");
@@ -155,9 +161,10 @@ alert("the corect answer is 3" + "your score is "+ score);
 
 
 
-for (i = 0; i < 5; i++) {
+for (i = 0; i < 4; i++) {
 
     let novels= prompt("guess a number of novels I read");
+    let novels = parseInt(novels);
     if (novels < 20) {
         console.log(novels);
         alert("it is too low " + "'\n guess again");
@@ -175,9 +182,10 @@ alert("the corect answer is 20 " + "your score is "+score);
 
 
 
-for (i = 0; i < 5; i++) {
+for (i = 0; i < 4; i++) {
 
     let age = prompt("guess my age");
+    let age = parseInt(age);
     if (age < 23) {
         console.log(age);
         alert("it is too low " + "\n guess again");
@@ -193,9 +201,10 @@ for (i = 0; i < 5; i++) {
 }
 alert("the corect answer is 23 "+ "your score is " + score);
 
-for (i = 0; i < 5; i++) {
+for (i = 0; i < 4; i++) {
 
     let brother = prompt("guess how many brothers for me");
+    let brother = parseInt(brother);
     if (brother < 3) {
         console.log(brother);
         alert("it is too low " + "\n guess again");

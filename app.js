@@ -202,24 +202,28 @@ questionFour();
 
 
 // question five
-for (let i = 0; i < 4; i++) {
+function questionFive(){
+    for (let i = 0; i < 4; i++) {
 
-    let age = prompt("guess my age");
-    age = parseInt(age);
-    if (age < 23) {
-        console.log(age);
-        alert("it is too low " + "\n guess again");
-    } else if (age > 23) {
-        console.log(age);
-        alert("it is too high " + "\n guess again");
-    } else if (age = 23) {
-        console.log(age);
-        score++
-        alert("good jop " + userName + " the correct answer is 23");
-        break;
+        let age = prompt("guess my age");
+        age = parseInt(age);
+        if (age < 23) {
+            console.log(age);
+            alert("it is too low " + "\n guess again");
+        } else if (age > 23) {
+            console.log(age);
+            alert("it is too high " + "\n guess again");
+        } else if (age = 23) {
+            console.log(age);
+            score++
+            alert("good jop " + userName + " the correct answer is 23");
+            break;
+        }
     }
+    alert("the corect answer is 23 " + "your score is " + score);
 }
-alert("the corect answer is 23 " + "your score is " + score);
+questionFive();
+
 
 
 // question six

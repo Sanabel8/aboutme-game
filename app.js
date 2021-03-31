@@ -86,61 +86,66 @@ alert('Hello ' + userName + ' welcome in my web page ' + '\nI will ask you some 
 alert('Hello ' + userName + ' welcome in my web page ' + '\nI will game with you some guessing.');
 let score = 0;
 
+
 // question one
+function questionOne() {
 
-function questionOne (){
+    for (let i = 0; i < 4; i++) {
 
-for (let i = 0; i < 4; i++) {
+        let number = prompt("guess a number between 1-10");
+        number = parseInt(number);
 
-    let number = prompt("guess a number between 1-10");
-    number = parseInt(number);
-
-    if (number < 8) {
-        console.log(number);
-        alert("it is too low " + "'\n guess again");
-    } else if (number > 8) {
-        console.log(number);
-        alert("it is too high " + "'\n guess again");
-    } else if (i = 8) {
-        console.log(number);
-        score++;
-        alert("good jop " + userName + " the correct answer is 8 " + "your score is " + score);
-        break;
+        if (number < 8) {
+            console.log(number);
+            alert("it is too low " + "'\n guess again");
+        } else if (number > 8) {
+            console.log(number);
+            alert("it is too high " + "'\n guess again");
+        } else if (i = 8) {
+            console.log(number);
+            score++;
+            alert("good jop " + userName + " the correct answer is 8 " + "your score is " + score);
+            break;
+        }
     }
-}
-alert('the corect answer is 8 ');
+    alert('the corect answer is 8 ');
 }
 questionOne();
 
 
 
 // question two
-for (let i = 0; i < 4; i++) {
+function questionTwo() {
+    for (let i = 0; i < 4; i++) {
 
-    let color = prompt("guess a color between red/green/pink/blue");
-    color = parseInt(color);
+        let color = prompt("guess a color between red/green/pink/blue");
+        color = parseInt(color);
 
-    if (color == "pink") {
-        console.log(color);
-        alert("it is not true " + "'\n guess again");
-    } else if (color == "red") {
-        console.log(color);
-        alert("it is not true " + "'\n guess again");
-    } else if (color == "blue") {
-        console.log(color);
-        score++;
-        alert("good jop " + userName + " the correct answer is blue" + " your score is " + score);
-        break;
-    } else if (color == "green") {
-        console.log(color);
-        alert("it is not true " + "\n guess again");
+        if (color == "pink") {
+            console.log(color);
+            alert("it is not true " + "'\n guess again");
+        } else if (color == "red") {
+            console.log(color);
+            alert("it is not true " + "'\n guess again");
+        } else if (color == "blue") {
+            console.log(color);
+            score++;
+            alert("good jop " + userName + " the correct answer is blue" + " your score is " + score);
+            break;
+        } else if (color == "green") {
+            console.log(color);
+            alert("it is not true " + "\n guess again");
 
-    } else {
-        alert("plz choose red or green or pink or blue");
+        } else {
+            alert("plz choose red or green or pink or blue");
+        }
     }
-}
 
-alert("the corect answer is blue" + " your score is " + score);
+    alert("the corect answer is blue" + " your score is " + score);
+}
+questionTwo();
+
+
 
 
 

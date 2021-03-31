@@ -1,4 +1,5 @@
 'use script';
+
 let userName = prompt("what's your name?");
 console.log(userName);
 alert('Hello ' + userName + ' welcome in my web page ' + '\nI will ask you some question.');
@@ -83,7 +84,7 @@ alert('Hello ' + userName + ' welcome in my web page ' + '\nI will ask you some 
 
 
 
-alert('Hello ' + userName + ' welcome in my web page ' + '\nI will game with you some guessing.');
+// alert('Hello ' + userName + ' welcome in my web page ' + '\nI will game with you some guessing.');
 let score = 0;
 
 
@@ -104,7 +105,7 @@ function questionOne() {
         } else if (i = 8) {
             console.log(number);
             score++;
-            alert("good jop " + userName + " the correct answer is 8 " + "your score is " + score);
+            alert("good job " + userName + " the correct answer is 8 " + "your score is " + score);
             break;
         }
     }
@@ -130,7 +131,7 @@ function questionTwo() {
         } else if (color == "blue") {
             console.log(color);
             score++;
-            alert("good jop " + userName + " the correct answer is blue" + " your score is " + score);
+            alert("good job " + userName + " the correct answer is blue" + " your score is " + score);
             break;
         } else if (color == "green") {
             console.log(color);
@@ -165,7 +166,7 @@ function questionThree(){
         } else if (i = 3) {
             console.log(travel);
             score++;
-            alert("good jop " + userName + " the correct answer is 3 " + "you score is " + score);
+            alert("good job " + userName + " the correct answer is 3 " + "you score is " + score);
             break;
         }
     }
@@ -190,7 +191,7 @@ function questionFour(){
         } else if (i = 20) {
             console.log(novels);
             score++;
-            alert("good jop " + userName + " the correct answer is 20 " + "your score is " + score);
+            alert("good job " + userName + " the correct answer is 20 " + "your score is " + score);
             break;
         }
     }
@@ -216,7 +217,7 @@ function questionFive(){
         } else if (age = 23) {
             console.log(age);
             score++
-            alert("good jop " + userName + " the correct answer is 23");
+            alert("good job " + userName + " the correct answer is 23");
             break;
         }
     }
@@ -275,7 +276,8 @@ alert("thank you " +userName+ "your score is "+score);
 
 
 // question seven
-let flowers = null;
+function questionSeven(){
+    let flowers = null;
 let correctAnswer = ["orchidRose ", " lilyRose", " pinkRose", " ", "irisRose", " jasmineRose"];
 let attempts = 6;
 
@@ -299,6 +301,9 @@ hasAttempts: while (attempts) {
 if (!attempts) {
     alert('sorry you run out of tries the answer correct ' + correctAnswer);
 }
+}
+questionSeven();
+
 
 
 

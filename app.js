@@ -212,6 +212,7 @@ for (i = 0; i < 5; i++) {
 alert("the correct answer is 3 "+ "your score is " + score);
 
 
+/*
 let flowers =["orchidRose ", " lilyRose"," pinkRose" ," " , "irisRose"," jasmineRose"];
 
 for (let i = 0; i < flowers.length; i++){
@@ -231,5 +232,31 @@ for (let i = 0; i < flowers.length; i++){
 alert("I LOVE "+ flowers[1] + flowers[4] +flowers[5]);
 alert("thank you " +userName+ "your score is "+score);
 
+*/
 
 
+
+let flowers=null;
+let correctAnswer =["orchidRose ", " lilyRose"," pinkRose" ," " , "irisRose"," jasmineRose"];
+let attempts =6;
+
+hasAttempts:while (attempts) {
+    flowers= prompt("guess what type of flowers I love ");
+     attempts -= 1 ; 
+     
+      for(let i = 0; i < correctAnswer.length;i++){
+      if (flower===correctAnswer[i]){
+        score++;
+        alert("good job " + userName+ "the coorect answer is "+correctAnswer+"\n your score "+ score);
+
+        break hasAttempts;
+      }
+
+      }
+
+ alert("sorry wrong anwser");
+
+}
+if (!attempts){
+    alert('sorry you run out of tries the answer correct '+ correctAnswer+);
+}

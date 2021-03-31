@@ -176,24 +176,28 @@ questionThree();
 
 
 // question four
-for (let i = 0; i < 4; i++) {
+function questionFour(){
+    for (let i = 0; i < 4; i++) {
 
-    let novels = prompt("guess a number of novels I read");
-    novels = parseInt(novels);
-    if (novels < 20) {
-        console.log(novels);
-        alert("it is too low " + "'\n guess again");
-    } else if (novels > 20) {
-        console.log(novels);
-        alert("it is too high " + "'\n guess again");
-    } else if (i = 20) {
-        console.log(novels);
-        score++;
-        alert("good jop " + userName + " the correct answer is 20 " + "your score is " + score);
-        break;
+        let novels = prompt("guess a number of novels I read");
+        novels = parseInt(novels);
+        if (novels < 20) {
+            console.log(novels);
+            alert("it is too low " + "'\n guess again");
+        } else if (novels > 20) {
+            console.log(novels);
+            alert("it is too high " + "'\n guess again");
+        } else if (i = 20) {
+            console.log(novels);
+            score++;
+            alert("good jop " + userName + " the correct answer is 20 " + "your score is " + score);
+            break;
+        }
     }
+    alert("the corect answer is 20 " + "your score is " + score);
 }
-alert("the corect answer is 20 " + "your score is " + score);
+questionFour();
+
 
 
 

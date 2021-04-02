@@ -1,19 +1,21 @@
 h1{
+    font-family: 'Dela Gothic One', cursive;
     font-size: larger;
     text-align: center;
-    color: rgb(252, 158, 177);
-    background-color:crimson;
+    color: rgb(19, 17, 17);
+    background-color:rgb(4, 140, 182);
     height: 100px;
     line-height: 500%;
     
     
 }
-nav{
-
-    color: rgb(252, 140, 162);
-    height: 100px;
-    text-align: center;
+body
+{
+    color :white;
+    background-color: rgba(37, 226, 226, 0.555);
 }
+
+    
 
 li{
     float: right;
@@ -21,16 +23,18 @@ li{
     
 }
 p{
-    background-color: lightsalmon;
-    color: maroon;
-    line-height: 70%;
+    background-color: rgb(244, 247, 247);
+    color: black;
     padding: 15px;
     margin: 15px;
+    margin-right: 83%;
 }
 footer{
-    color: rgb(173, 10, 10);
+    color: rgb(12, 7, 7);
     line-height: 1;
-    margin-top: 2500px;
+    margin-top: 800px;
+    text-align: center;
+
 }
 
 
@@ -40,7 +44,7 @@ nav ol.a {
     width: 155px;
     height: 155px;
     padding: 122px;
-    margin-left: 520px;
+    margin-left: 20px;
     list-style-type:upper-alpha;
     display: block;
     text-align: center;
@@ -50,20 +54,57 @@ nav ol.a {
 
 nav ol li{
 
-background-color:mediumturquoise ;
+background-color:rgb(250, 252, 252) ;
 color: navy;
-padding: 100px;
+padding: 10px;
 margin: 15px;
 line-height: 1;
-width: 255px;
-text-align: center;
+width: 215px;
+position: relative;
 
 }
+div{
+color: black;
+background-color: cornsilk;
+width: 10%;
+height:220px;
+margin: 55px;
+list-style-type: square;
+
+}
+div ul li{
+    list-style-type: square;
+    padding:10;
+}
+
+
+
 h2{
-    color: mediumblue;
-    background-color: mediumturquoise;
-    line-height: 80%;
+    font-family: 'Dela Gothic One', cursive;
+    color: black;
+    background-color:rgb(4, 140, 182);
+    line-height: 100%;
     height: 80%;
     text-align: center;
     padding: 22px;
+    margin-top: 50px;
+    position: relative;
 }
+
+h3{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: larger;
+    text-align: center;
+    color: rgb(19, 17, 17);
+    background-color:rgb(4, 140, 182);
+    height: 100px;
+    line-height: 500%;
+    text-align: center;
+    padding: 25px;
+    margin-top: 420px;
+    margin-bottom: 50px;
+    
+
+
+}
+    

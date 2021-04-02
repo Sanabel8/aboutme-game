@@ -218,27 +218,6 @@ questionSix();
 
 
 
-/*
-let flowers =["orchidRose ", " lilyRose"," pinkRose" ," " , "irisRose"," jasmineRose"];
-
-for (let i = 0; i < flowers.length; i++){
-    let guessflowers= prompt("guess what type of flowers I love ");
-    if (guessflowers === flowers[i]){
-        console.log(guessflowers.toLowerCase());
-        alert("good job " + userName+"\n your score "+ score);
-        score++;
-        break;
-    } else {
-        console.log(guessflowers.toLowerCase());
-        alert("it is not correct answer " + "\n guess again");
-        
-    } 
-
-}
-alert("I LOVE "+ flowers[1] + flowers[4] +flowers[5]);
-alert("thank you " +userName+ "your score is "+score);
-
-*/
 
 
 

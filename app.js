@@ -3,7 +3,7 @@
 let userName = prompt("what's your name?");
 alert('Hello ' + userName + ' welcome in my web page ' + '\nI will ask you some question.');
 
-
+function one (){
 
 let iceCream = prompt('Do you think I love ice-cream?');
 iceCream=iceCream.toLowerCase();
@@ -14,9 +14,10 @@ if (iceCream==='yes'|| iceCream==='y'){
 }else{
     alert('plz answer the qustion by yas/y or no/n')
 }
+}
+one ();
 
-
-
+function two(){
 let instegram = prompt('Do you think I love instegram?');
 instegram=instegram.toLowerCase();
 if (instegram==='yes'|| instegram==='y'){
@@ -26,9 +27,11 @@ if (instegram==='yes'|| instegram==='y'){
 }else{
     alert('plz answer the qustion by yas/y or no/n')
 }
+}
+two ();
 
 
-
+function three(){
 let summer = prompt('Do you think I love summer?');
 summer=summer.toLowerCase();
 if (summer==='yes'|| summer==='y'){
@@ -38,9 +41,11 @@ if (summer==='yes'|| summer==='y'){
 }else{
     alert('plz answer the qustion by yas/y or no/n')
 }
+}
+three();
 
 
-
+function four(){
 let sea = prompt('Do you think I love sea?');
 sea=sea.toLowerCase();
 if (sea==='yes'|| iceCream==='y'){
@@ -50,8 +55,11 @@ if (sea==='yes'|| iceCream==='y'){
 }else{
     alert('plz answer the qustion by yas/y or no/n')
 }
+}
+four ();
 
 
+function five (){
 let travel = prompt('Do you think I love travel?');
 travel=travel.toLowerCase();
 if (travel==='yes'|| travel==='y'){
@@ -61,7 +69,8 @@ if (travel==='yes'|| travel==='y'){
 }else{
     alert('plz answer the qustion by yas/y or no/n')
 }
-
+}
+five ();
 alert('thank you '+userName);
 
 
